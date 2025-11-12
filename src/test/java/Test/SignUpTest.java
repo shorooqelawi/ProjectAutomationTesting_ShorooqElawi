@@ -65,7 +65,7 @@ public class SignUpTest extends TestBase {
         signUpPage.FillAC_COUNT_DETAILS(userName, email, pwd, pwd);
         signUpPage.Fill_PERSONAL_DETAILS(first, last, phone);
         signUpPage.Fill_ADDRESS_DETAILS("Jordan", city, addr, state, postal);
-        Thread.sleep(3000);
+        Thread.sleep(5000);
 
         signUpPage.clickOnRegisterButton();
         Thread.sleep(2000);
